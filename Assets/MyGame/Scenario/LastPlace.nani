@@ -1,0 +1,20 @@
+
+@back outpost
+
+@char Nani.confuse look:right pose:25 scale:0.75
+
+@char Yuni.confuse look:left pose:75 scale:0.75
+
+@set questStage=5
+
+Nani: Ну что у тебя получился расклад?
+
+Yuni: Подожди... А на кого ты его делал вообще?
+
+@choice Нани goto:naniOption
+
+@choice Юни goto:yuniOption
+
+@choice Себя goto:selfOption
+
+@stop

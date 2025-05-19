@@ -1,0 +1,13 @@
+
+@hidePrinter 
+@back desert
+
+@choice Нани goto:NaniHouse if:queststage=1
+
+@choice Дом goto:MiniGame if:questStage=2
+
+@choice Нани goto:NaniHouse2 if:queststage=3
+
+@choice Юна goto:LastPlace if:queststage=4
+
+@stop

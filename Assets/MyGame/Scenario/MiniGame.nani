@@ -1,0 +1,5 @@
+@back outpost3
+
+@set questStage=3
+
+@loadMiniGameScene
